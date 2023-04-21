@@ -11,7 +11,7 @@ Write a function that executes a function given as a parameter on each element o
 Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
 where size is the size of the array and action is a pointer to the function you need to use.
 
-2. To hell with circumstances; I create opportunities
+2i. To hell with circumstances; I create opportunities
 Write a function that searches for an integer.
 Prototype: int int_index(int *array, int size, int (*cmp)(int));
 where size is the number of elements in the array array
@@ -84,4 +84,3 @@ You have to use atoi to convert the argument to an int
 If the number of argument is not the correct one, print Error, followed by a new line, and exit with the status 1
 If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
 You do not have to compile with any flags
-
